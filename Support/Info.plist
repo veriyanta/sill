@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+    <key>CFBundleExecutable</key><string>Sill</string>
+    <key>CFBundleIdentifier</key><string>local.sill.imageutility</string>
+    <key>CFBundleName</key><string>Sill</string>
+    <key>CFBundleDisplayName</key><string>Sill</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>0.1.11</string>
+    <key>CFBundleVersion</key><string>12</string>
+    <key>LSMinimumSystemVersion</key><string>15.0</string>
+    <key>LSArchitecturePriority</key><array><string>arm64</string></array>
+    <key>CFBundleIconFile</key><string>Sill</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>CFBundleDocumentTypes</key><array><dict>
+        <key>CFBundleTypeName</key><string>Image</string>
+        <key>CFBundleTypeRole</key><string>Viewer</string>
+        <key>LSHandlerRank</key><string>Alternate</string>
+        <key>LSItemContentTypes</key><array>
+            <string>public.jpeg</string><string>public.png</string><string>com.compuserve.gif</string>
+            <string>public.tiff</string><string>public.heic</string><string>public.heif</string>
+            <string>com.microsoft.bmp</string><string>org.webmproject.webp</string>
+            <string>com.microsoft.ico</string><string>public.camera-raw-image</string>
+        </array>
+    </dict></array>
+</dict></plist>

@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0000000000000000000000A2 = { isa = PBXBuildFile; fileRef = 0000000000000000000000A1; };
+		000000000000000000000008 = {
+			isa = PBXBuildFile;
+			fileRef = 000000000000000000000001;
+		};
+		000000000000000000000009 = {
+			isa = PBXBuildFile;
+			fileRef = 000000000000000000000002;
+		};
+		00000000000000000000000A = {
+			isa = PBXBuildFile;
+			fileRef = 000000000000000000000003;
+		};
+		00000000000000000000000B = {
+			isa = PBXBuildFile;
+			fileRef = 000000000000000000000004;
+		};
+		00000000000000000000000C = {
+			isa = PBXBuildFile;
+			fileRef = 000000000000000000000005;
+		};
+		00000000000000000000000D = {
+			isa = PBXBuildFile;
+			fileRef = 000000000000000000000006;
+		};
+		00000000000000000000000E = {
+			isa = PBXBuildFile;
+			fileRef = 000000000000000000000007;
+		};
+		000000000000000000000012 = {
+			isa = PBXBuildFile;
+			fileRef = 00000000000000000000000F;
+		};
+		00000000000000000000001A = {
+			isa = PBXBuildFile;
+			productRef = 000000000000000000000019;
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0000000000000000000000A1 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderIndex.swift; sourceTree = "<group>"; };
+		000000000000000000000001 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Canvas.swift;
+			sourceTree = "<group>";
+		};
+		000000000000000000000002 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = DesktopActions.swift;
+			sourceTree = "<group>";
+		};
+		000000000000000000000003 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = EditUI.swift;
+			sourceTree = "<group>";
+		};
+		000000000000000000000004 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = RecentFiles.swift;
+			sourceTree = "<group>";
+		};
+		000000000000000000000005 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = SillApp.swift;
+			sourceTree = "<group>";
+		};
+		000000000000000000000006 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ViewerDiagnostics.swift;
+			sourceTree = "<group>";
+		};
+		000000000000000000000007 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = WorkspaceView.swift;
+			sourceTree = "<group>";
+		};
+		00000000000000000000000F = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.icns;
+			path = Sill.icns;
+			sourceTree = "<group>";
+		};
+		000000000000000000000010 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		000000000000000000000011 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.entitlements;
+			path = Sandbox.entitlements;
+			sourceTree = "<group>";
+		};
+		000000000000000000000013 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = Sill.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00000000000000000000001C = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (00000000000000000000001A,);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000014 = {
+			isa = PBXGroup;
+			children = (0000000000000000000000A1, 000000000000000000000001, 000000000000000000000002, 000000000000000000000003, 000000000000000000000004, 000000000000000000000005, 000000000000000000000006, 000000000000000000000007,);
+			name = App;
+			path = Sources/SillApp;
+			sourceTree = "<group>";
+		};
+		000000000000000000000015 = {
+			isa = PBXGroup;
+			children = (000000000000000000000010, 000000000000000000000011, 00000000000000000000000F,);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		000000000000000000000016 = {
+			isa = PBXGroup;
+			children = (000000000000000000000013,);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000000000000000000000017 = {
+			isa = PBXGroup;
+			children = (000000000000000000000014, 000000000000000000000015, 000000000000000000000016,);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000024 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000023;
+			buildPhases = (00000000000000000000001B, 00000000000000000000001C, 00000000000000000000001D,);
+			buildRules = ();
+			dependencies = ();
+			name = Sill;
+			packageProductDependencies = (000000000000000000000019,);
+			productName = Sill;
+			productReference = 000000000000000000000013;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000025 = {
+			isa = PBXProject;
+			attributes = { LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 000000000000000000000020;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = 000000000000000000000017;
+			packageReferences = (000000000000000000000018,);
+			productRefGroup = 000000000000000000000016;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (000000000000000000000024,);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00000000000000000000001D = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (000000000000000000000012,);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00000000000000000000001B = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (0000000000000000000000A2, 000000000000000000000008, 000000000000000000000009, 00000000000000000000000A, 00000000000000000000000B, 00000000000000000000000C, 00000000000000000000000D, 00000000000000000000000E,);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00000000000000000000001E = {
+			isa = XCBuildConfiguration;
+			buildSettings = { ARCHS = arm64;
+			MACOSX_DEPLOYMENT_TARGET = 15.0;
+			SDKROOT = macosx;
+			SWIFT_VERSION = 6.0;
+			SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00000000000000000000001F = {
+			isa = XCBuildConfiguration;
+			buildSettings = { ARCHS = arm64;
+			MACOSX_DEPLOYMENT_TARGET = 15.0;
+			SDKROOT = macosx;
+			SWIFT_VERSION = 6.0;
+			SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		000000000000000000000021 = {
+			isa = XCBuildConfiguration;
+			buildSettings = { CODE_SIGN_ENTITLEMENTS = Support/Sandbox.entitlements;
+			CODE_SIGN_IDENTITY = "-";
+			CODE_SIGN_STYLE = Manual;
+			ENABLE_APP_SANDBOX = YES;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = Support/Info.plist;
+			PRODUCT_BUNDLE_IDENTIFIER = local.sill.imageutility;
+			PRODUCT_NAME = Sill;
+			LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+			};
+			name = Debug;
+		};
+		000000000000000000000022 = {
+			isa = XCBuildConfiguration;
+			buildSettings = { CODE_SIGN_ENTITLEMENTS = Support/Sandbox.entitlements;
+			CODE_SIGN_IDENTITY = "-";
+			CODE_SIGN_STYLE = Manual;
+			ENABLE_APP_SANDBOX = YES;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = Support/Info.plist;
+			PRODUCT_BUNDLE_IDENTIFIER = local.sill.imageutility;
+			PRODUCT_NAME = Sill;
+			LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000000000020 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (00000000000000000000001E, 00000000000000000000001F,);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000023 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (000000000000000000000021, 000000000000000000000022,);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		000000000000000000000018 = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ".";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		000000000000000000000019 = {
+			isa = XCSwiftPackageProductDependency;
+			package = 000000000000000000000018;
+			productName = SillCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 000000000000000000000025;
+}
