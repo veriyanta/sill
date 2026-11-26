@@ -47,3 +47,7 @@ Create the output folder before running the CLI. Its inputs and outputs are the 
 To reproduce the viewer workload, run `SillChecks --make-viewer-fixtures /path/to/new-test-folder`. Open its `mixed-2000` folder and use **View → Viewer Diagnostics**. The timer runs from acceptance of the folder picker to the AppKit canvas’s first draw. The diagnostics also show the app’s physical footprint.
 
 [Capability matrix and verification](CAPABILITIES.md)
+
+## License
+
+Sill is released under the [MIT License](LICENSE).
